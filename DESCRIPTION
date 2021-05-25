@@ -1,0 +1,13 @@
+Package: topten
+Type: Package
+Title: Building a predictiion model for Top 10 Features
+Version: 0.1.0
+Date: 2021-05-21 
+Author: Eyvaz Najafli
+Maintainer: Eyvaz Najafli <eyvaz.necefli.std@bhos.edu.az>
+Description: Function for building and predicting from models
+    from selecting Top 10 predictors in a dataset
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

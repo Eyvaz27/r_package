@@ -1,0 +1,22 @@
+# https://rstudio.github.io/reticulate/
+# install.packages("reticulate")
+library(reticulate)
+
+# Loads Python Shell
+repl_python()
+
+reticulate::py_config()
+
+# Load a particular Python version on our system
+# use_python("C:/Users/lider/anaconda3/pkgs/python-3.6.11-h6f26aa1_2_cpython", required = TRUE)
+#
+# import matplotlib.pyplot as plt
+plt <- import('matplotlib.pyplot')
+
+# import numpy as np
+np <- import('numpy')
+
+############################
+# Load the Iris dataset
+############################
+data(iris)
